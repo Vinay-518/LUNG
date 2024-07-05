@@ -1,0 +1,7 @@
+google.generativeai
+keras>=2.6.0
+tensorflow>=2.7.0
+streamlit>=1.2.0
+numpy>=1.22.0
+pillow>=8.3.2
+matplotlib>=3.5.1
