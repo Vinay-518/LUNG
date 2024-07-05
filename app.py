@@ -147,7 +147,7 @@ def initialize_database(json_file_path="data.json"):
 
 
 
-import cv2 
+import cv2 as c
 import numpy as np
 
 import sys  # Import sys module for sys.exit()
@@ -213,7 +213,7 @@ def save_lungs_image(image_file, json_file_path="data.json"):
 def is_grayscale(image_path):
     try:
         # Load the image
-        image = cv2.imread(image_path)
+        image = c.imread(image_path)
 
         # Check if the image was loaded properly
         if image is None:
